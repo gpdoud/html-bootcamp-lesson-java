@@ -1,20 +1,90 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>My Resume</title>
-        <link href="css/cv.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
 
-        <div class="aligntop">        
-            <span id='name'>Greg Doud</span><br />
-            <span>123 Any Street</span><br />
-            <span>Mason, OH 45040</span><br />
-            <span>513-703-7315</span><br />
-            <span>gdoud@maxtrain.com</span>
+<head>
+    <title>My Resume</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/cv.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="cv.html">CV</a></li>
+        </ul>
+    </nav>
+
+    <div class="aligntop">
+        <p id='name'>Greg Doud</p>
+        <span>123 Any Street</span><br />
+        <span>Mason, OH 45040</span><br />
+        <span>513-703-7315</span><br />
+        <span>gdoud@maxtrain.com</span>
+    </div>
+    <div class="rightjust">
+        <img src="images/Greg-300x300.jpg" width="115" height="115"><br />
+    </div>
+
+    <hr />
+    <section>
+        <h3>Technology</h3>
+        <p>I am familiar with these technologies:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">.NET</th>
+                    <th colspan="2">JAVA</th>
+                    <th>WEB</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C#.net</td>
+                    <td>SQL Server</td>
+                    <td>JAVA 8</td>
+                    <td>MySql</td>
+                    <td>HTML/CSS</td>
+                </tr>
+                <tr>
+                    <td>EntityFramework</td>
+                    <td>Microsoft MVC</td>
+                    <td>Hibernate</td>
+                    <td></td>
+                    <td>JavaScript</td>
+                </tr>
+                <tr>
+                    <td>WebAPI</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Bootstrap</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr />
+    <section>
+        <h3>Work Experience</h3>
+        <div class="job job-max">
+            <span class="years">2017 - present : </span>
+            <span class="role">Bootcamp Instructor </span>
+            <span class="company">MAX Technical Training - Mason, OH</span>
         </div>
-        <div class="rightjust">
-            <img src="images/Greg-300x300.jpg" width="115" height="115"><br />
+        <ul>
+            <li>Taught multiple Java & .Net bootcamps</li>
+            <li>Taught at all levels from beginner to advanced</li>
+        </ul>
+        <div class="job job-tiy">
+            <span class="years">2016 - 2017 : </span>
+            <span class="role">Bootcamp Instructor </span>
+            <span class="company">The Iron Yard - Greenville, SC</span>
         </div>
-    </body>
+        <ul>
+            <li>Taught multiple Java & .Net bootcamps</li>
+            <li>Taught at all levels from beginner to advanced</li>
+        </ul>
+    </section>
+</body>
+
 </html>
